@@ -12,6 +12,6 @@ nodemon server
 * Nodejs
 * Express
 * Mysql
-* Express-seestion
+* express-session
 * Ejs
 * Tailwind
