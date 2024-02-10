@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="flex justify-center py-20">
+        <div class="max-w-7xl w-full px-5">
+            <div class="flex justify-center">
+                <div>
+                    <h1 class="text-center text-rose-500 text-2xl
+                    ">Login</h1>
+                    <form action="/login" method="POST">
+                        <div>
+                            <label for="username" class="text-rose-500">Username</label>
+                            <br>
+                            <input type="text" id="username" name="username" class="border border-rose-500 rounded-xl text-rose-500 pl-2">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="password" class="text-rose-500">Password</label>
+                            <br>
+                            <input type="password" id="password" name="password" class="border border-rose-500 rounded-xl text-rose-500 pl-2">
+                        </div>
+                        <br><br>
+                        <div class="flex justify-center">
+                            <input type="submit" value="Login" class="bg-rose-500 text-white px-5 py-1 rounded-full text-sm border border-rose-500 hover:text-rose-500 hover:bg-white transition cursor-pointer">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
